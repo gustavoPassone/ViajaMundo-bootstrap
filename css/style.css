@@ -1,0 +1,22 @@
+.hero-img {
+  height: 60vh;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+
+.card-img-custom {
+  height: 200px;
+  object-fit: cover;
+}
+
+.hover-card {
+  transition: transform 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+}
+
+body {
+  padding-top: 56px;
+}
